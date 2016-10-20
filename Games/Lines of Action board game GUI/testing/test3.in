@@ -1,0 +1,10 @@
+# Run the staff program against the staff program.
+staff-loa
+None
+===#1===
+auto Black
+auto White
+seed 12347
+start
+%bw
+%e

@@ -1,0 +1,9 @@
+# Check the set method.
+java -ea loa.Main 
+None
+===#1===
+set b4 w
+dump
+set b4 e
+dump
+quit

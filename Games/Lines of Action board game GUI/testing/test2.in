@@ -1,0 +1,13 @@
+# Check that some simple moves entered by hand work.
+java -ea loa.Main
+None
+===#1===
+manual Black
+manual White
+start
+dump
+b1-b3
+dump
+clear
+dump
+quit

@@ -1,0 +1,24 @@
+load students;
+load enrolled;
+load schedule;
+load blank;
+insert into blank values '1', '2', '3';
+create table simple (first, second, third);
+insert into simple values 'red', 'green', 'blue';
+insert into simple values 'violet', 'indigo', 'near ultraviolet';
+insert into simple values 'far ultraviolet', 'x-ray', 'gamma';
+print simple;
+/* Who in EECS has taken the an English course and gotten a grade better than B? */
+/* First, create a table that contains SIDS, CCN,and grades of all students in their English classes? */
+create table englishgrades as
+  select SID, schedule.CCN, Grade from schedule, enrolled
+     where Dept = 'English' and schedule.CCN = enrolled.CCN;
+select SID, CCN, Grade from englishgrades;
+/* Then create a table with the names and grades of the EECS majors in this list */
+create table EECSinEnglish as
+  select Firstname, Lastname, Grade from students, englishgrades
+    where Major = 'EECS' and students.SID = englishgrades.SID;
+/* Finally print the names and grades of the people with grade higher than B */
+  select Firstname, Lastname, Grade from EECSinEnglish 
+    where Grade != 'B' and Grade != 'B+';
+quit;

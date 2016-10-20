@@ -1,0 +1,211 @@
+101002
+            7H --- --- ---
+
+  9D        3H  AC  QC  8S
+ ### ---  
+> c
+            7H --- --- ---
+
+  9D        3H  AC  QC  8S
+ ### 10D  
+> c
+            7H --- --- ---
+
+  9D        3H  AC  QC  8S
+ ###  QS  
+> c
+            7H --- --- ---
+
+  9D        3H  AC  QC  8S
+ ###  6H  
+> c
+            7H --- --- ---
+
+  9D        3H  AC  QC  8S
+ ###  9H  
+> c
+            7H --- --- ---
+
+  9D        3H  AC  QC  8S
+ ###  3D  
+> c
+            7H --- --- ---
+
+  9D        3H  AC  QC  8S
+ ###  4D  
+> c
+            7H --- --- ---
+
+  9D        3H  AC  QC  8S
+ ### 10C  
+> c
+            7H --- --- ---
+
+  9D        3H  AC  QC  8S
+ ###  4S  
+> c
+            7H --- --- ---
+
+  9D        3H  AC  QC  8S
+ ###  7C  
+> wf
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  KD  
+> wt 2
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  4C   ---  KD --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  AD   ---  KD --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  6C   ---  KD --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ---  2S   ---  KD --- ---
+> wt 2
+Error: tableau is built down in sequence
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ---  2S   ---  KD --- ---
+> wt 1
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ---  6C    2S  KD --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ### ---    2S  KD --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ### 10D    2S  KD --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  QS    2S  KD --- ---
+> wt 2
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  3C    2S  KD --- ---
+           ---  QS --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  6H    2S  KD --- ---
+           ---  QS --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  9H    2S  KD --- ---
+           ---  QS --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  3D    2S  KD --- ---
+           ---  QS --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  4D    2S  KD --- ---
+           ---  QS --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ### 10C    2S  KD --- ---
+           ---  QS --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  4S    2S  KD --- ---
+           ---  QS --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  KC    2S  KD --- ---
+           ---  QS --- ---
+> tt 2 1
+Error: tableau is built down in alternating colors
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  KC    2S  KD --- ---
+           ---  QS --- ---
+> u
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  KC    2S  KD --- ---
+           ---  QS --- ---
+> u
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  4S    2S  KD --- ---
+           ---  QS --- ---
+> c
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  KC    2S  KD --- ---
+           ---  QS --- ---
+> tt 2 1
+Error: tableau is built down in alternating colors
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  KC    2S  KD --- ---
+           ---  QS --- ---
+> wf
+Error: card does not follow top card of foundation
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  KC    2S  KD --- ---
+           ---  QS --- ---
+> ft 1 1
+Error: 7H must go to the foundation
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  KC    2S  KD --- ---
+           ---  QS --- ---
+> ft 2 1
+Error: 7C must go to the foundation
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  KC    2S  KD --- ---
+           ---  QS --- ---
+> ft 2 4
+Error: 7C must go to the foundation
+            7H  7C --- ---
+
+  9D        3H  AC  QC  8S
+ ###  KC    2S  KD --- ---
+           ---  QS --- ---
+> q
+Another game? [yn] n

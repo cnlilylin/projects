@@ -1,0 +1,15 @@
+The error is that somehow when you start the game with the computer playing against itself:
+>auto white
+>auto black
+>start
+
+Exception in thread "main" java.lang.AssertionError
+	at loa.Board.makeMove(Board.java:136)
+	at loa.MachinePlayer.forcedWin(MachinePlayer.java:73)
+	at loa.MachinePlayer.bestMove(MachinePlayer.java:38)
+	at loa.MachinePlayer.makeMove(MachinePlayer.java:23)
+	at loa.Game.play(Game.java:180)
+	at loa.Main.main(Main.java:48)
+	
+It gets an AssertionError and I don't know what is causing the assertionerror.
+I don’t know how to fix this problem, thank you!!
