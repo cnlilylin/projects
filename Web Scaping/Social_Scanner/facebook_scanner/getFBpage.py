@@ -6,8 +6,8 @@ import time
 from pprint import pprint
 
 NUM_STATUS=10
-APP_ID = "645860552234333"
-APP_SECRET = "2e1e5a91cdbd1102581055c428a30ccf" # DO NOT SHARE WITH ANYONE!
+APP_ID = ""
+APP_SECRET = "" # DO NOT SHARE WITH ANYONE!
 
 
 page_id = raw_input("Please enter page id: ")
